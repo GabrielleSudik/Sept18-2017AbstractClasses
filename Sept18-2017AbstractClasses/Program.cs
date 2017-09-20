@@ -8,18 +8,18 @@ namespace Sept18_2017AbstractClasses
 {
     class Program
 
-        //nothing can actually be part of an abstract class
-        //it needs an interface with some other class
+    //nothing can actually be part of an abstract class
+    //it needs an interface with some other class
 
     //er shoot -- you got those two concepts all messed up lol
     //fix when we do class exercises
 
-        //what are they for?
-        //multilevel inheritance
+    //what are they for?
+    //multilevel inheritance
 
-        //think about the employee project...
-        //the employee class could have been abstract
-        //because no one was ONLY an employee. they were also doctor or nurse, etc.
+    //think about the employee project...
+    //the employee class could have been abstract
+    //because no one was ONLY an employee. they were also doctor or nurse, etc.
 
     //APIE : abstraction, ploymorphism, inheritance, encapsulation
     //the 4 pillars of something... classes or whatever
@@ -29,7 +29,7 @@ namespace Sept18_2017AbstractClasses
         static void Main(string[] args)
         {
             Square square1 = new Square("square", 3); //constructor needs name and length
-                                                    //so you put them here
+                                                      //so you put them here
 
             square1.GetInfo();
             Console.WriteLine($"Area = {square1.Area()}.");
@@ -45,7 +45,6 @@ namespace Sept18_2017AbstractClasses
             circle2.GetInfo();
             Console.WriteLine($"Area = {circle2.Area()}.");
             circle2.NumOfCircles();
-
 
             Console.ReadLine();
 
@@ -70,6 +69,5 @@ namespace Sept18_2017AbstractClasses
         //can only be base class
 
         //Jordan recommends focus on abstract classes more than interface classes
-
     }
 }
