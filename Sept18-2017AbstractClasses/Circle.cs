@@ -14,7 +14,7 @@ namespace Sept18_2017AbstractClasses
 
         public static int circleNumber;
 
-        public Circle (string name, double radius) //the constructor, taking two parameters
+        public Circle(string name, double radius) //the constructor, taking two parameters
         {
             Name = name;
             Radius = radius;
@@ -39,5 +39,4 @@ namespace Sept18_2017AbstractClasses
 
         //sigh... this bit of instruction was very messy, and so now my code is too
     }
-
 }

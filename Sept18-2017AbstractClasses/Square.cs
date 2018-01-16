@@ -8,7 +8,6 @@ namespace Sept18_2017AbstractClasses
 {
     class Square : Shape
     {
-
         //property:
 
         public double Length { get; set; }
@@ -19,8 +18,7 @@ namespace Sept18_2017AbstractClasses
         {
             Length = length;
         }
-        
-        
+
         //method:
         //overrides base method (the one that doesn't do anything)
 

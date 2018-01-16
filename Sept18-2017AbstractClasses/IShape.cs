@@ -13,7 +13,5 @@ namespace Sept18_2017AbstractClasses
         void GetInfo(); //you can't add a body to interface methods
 
         double Area(); //ditto. the bodies are in the derived classes.
-
-
     }
 }

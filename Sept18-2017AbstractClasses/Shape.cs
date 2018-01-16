@@ -17,7 +17,7 @@ namespace Sept18_2017AbstractClasses
         //not unique to abstract classes
         //the shorthand get set thing will create it in the background
 
-            //constructor:
+        //constructor:
 
         public Shape(string name)
         {
@@ -33,10 +33,10 @@ namespace Sept18_2017AbstractClasses
         //method:
 
         abstract public double Area(); //we made this abstract
-                                    //why?
-                                    //because the concept of area doesn't apply to an imaginary shape
-                                    //note lack of {}
-                                    //abstract methods can't do anything, so no body
+                                       //why?
+                                       //because the concept of area doesn't apply to an imaginary shape
+                                       //note lack of {}
+                                       //abstract methods can't do anything, so no body
 
         public void GetInfo()
         {
@@ -47,6 +47,5 @@ namespace Sept18_2017AbstractClasses
 
             Console.WriteLine($"I am a {Name}.");
         }
-
     }
 }
